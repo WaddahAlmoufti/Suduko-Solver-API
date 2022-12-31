@@ -1,0 +1,55 @@
+#sudoku{
+    width: 450px;
+    height: 450px;
+    margin: 0;
+    position: fixed;
+    left:33%
+    
+}
+
+#sudoku input{
+    width: 50px;
+    height: 50px;
+    box-sizing: border-box;
+    border-spacing: 0;
+    border: 1px black solid;
+    text-align: center;
+}
+
+.in-even-box{
+    background-color: aquamarine;
+}
+
+
+#solver{
+    position: absolute;
+    top:101%;
+    left: 40%;
+    transition: 0.4s;
+
+    
+    border: 3px solid aquamarine;
+    background-color: white;
+    color: black;
+    border-radius: 15px;
+
+}
+
+#solver:hover{
+    background-color: aquamarine;
+    color: black;
+    border-color: black;
+}
+
+
+
+
+
+
+
+
+#title{
+    color: black;
+    text-align: center;
+}
+
